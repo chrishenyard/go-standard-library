@@ -1,0 +1,56 @@
+# ==============================================================================
+# Go (Golang) Artifacts
+# ==============================================================================
+# Compiled binaries and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries built with `go test -c`
+*.test
+
+# Output of the go coverage tool (e.g., coverage.out)
+*.out
+*.coverprofile
+profile.cov
+
+# Go workspace file (exclude local workspace configuration)
+go.work
+go.work.sum
+
+# Dependency directory 
+# Uncomment the line below if you do not want to check in your vendored dependencies
+# vendor/
+
+# Common build output directories (if you use custom build scripts/Makefiles)
+bin/
+dist/
+
+# ==============================================================================
+# Linux Specific Files
+# ==============================================================================
+# Temporary files created if a process still holds a handle to a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder (can appear on any partition or mounted disk)
+.Trash-*
+
+# Vim/Nano swap files (common default Linux editors)
+*.swp
+*.swo
+*~
+
+# ==============================================================================
+# Environment & IDEs (Optional but Recommended)
+# ==============================================================================
+# Sensitive environment variables
+.env
+.env.local
+
+# IDE files (VS Code and JetBrains/GoLand)
+.vscode/
