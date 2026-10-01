@@ -4,7 +4,7 @@ import (
 	"container/heap"
 	"fmt"
 
-	priorityqueue "github.com/chrishenyard/go-standard-library/queue"
+	priorityqueue "github.com/chrishenyard/go-standard-library/queues"
 )
 
 // Graph implements a directed, weighted graph suitable for shortest-path
