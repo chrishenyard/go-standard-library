@@ -1,4 +1,4 @@
-package graph
+package graphs
 
 import (
 	"reflect"
